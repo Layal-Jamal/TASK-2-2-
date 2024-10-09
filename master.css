@@ -1,0 +1,153 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+} 
+.one nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+}
+.photo img{
+    width: 100%;
+    height: 450px;
+}
+.photo{
+    position: relative;
+}
+.photo .text{
+    position: absolute;
+    top: 50%;
+    left: 36vw;
+    width: fit-content;
+    color: white;
+    font-size: 28px;
+    background-color:rgb(121,140,156,0.5);
+}
+.two{
+    text-align: center;
+    padding: 100px;
+    background-color: #f2f9fc;
+}
+.three{
+    text-align: center;
+    padding: 100px;
+    background-color: #fcd5bf;
+}
+.th1{
+    display: flex;
+    justify-content: space-around;
+}
+.four{
+    text-align: center;
+    padding: 100px;
+    background-color: #f2f9fc;
+    
+}
+.f1{
+    display:flex;
+}
+.f1 div{
+    padding: 30px;
+    margin: 5px;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.five{
+    text-align: center;
+    padding: 40px 80px;
+    background-color: #fcd5bf;
+}
+.fi1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 10px 0 ; 
+}
+ .fi1 p{
+    padding: 5px 20px;
+} 
+.teacher{
+    width: 200px;
+}
+.six{
+   text-align:center;
+    padding: 40px;
+     background-color: #f2f9fc;
+}
+.s1{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    height:510px;
+}
+.s1 div{
+    background-color: #f5deb3;
+    margin: 10px 20px;
+    padding: 20px 5px;
+    border-radius: 8px;
+}
+.s1 #ss{
+    width:270px;
+} 
+.s1 ul{
+    text-align: left;
+}
+
+.s1 .plandes{
+    background-color: #fde98c;
+    border: 2px solid #ffd700;
+    width: 250px;
+    height: 80px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    text-align: left;
+}
+.plandes p{
+    margin: 0;
+    font-size: 20px;
+}
+#field{
+    width: 400px;
+}
+#sub{
+    width: 175px;
+    height: 30px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.seven{
+    background-color: #fcd5bf;
+    text-align: center;
+}
+.seven .contact{
+    padding: 0 20px 30px 20px;
+}
+.seven nav{
+    background-color: #333;
+    padding: 7px;
+}
+.seven label{
+    position: relative;
+    display: block;
+    text-align: justify;
+    left: 32vw;
+    margin: 5px;
+}
